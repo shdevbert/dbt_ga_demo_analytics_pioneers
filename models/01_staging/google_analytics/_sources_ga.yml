@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+
+  - name: ga3_bz_overall
+    schema: '79472326'
+    database: bergzeit
+    tables:
+      - name: ga3_sessions_all
+        identifier: ga_sessions_*
+
+  - name: ga4_bz_overall
+    schema: analytics_317045356
+    database: bergzeit
+    tables:
+      - name: ga4_sessions_all
+        identifier: events_*
