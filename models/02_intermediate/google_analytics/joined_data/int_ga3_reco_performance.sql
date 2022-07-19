@@ -2,7 +2,7 @@
 with reco_click_data as(
     select
         *
-    from {{ref('stg_ga3_reco_event_data')}}
+    from {{ref('stg_ga3_reco_events_data')}}
     where reco_click is not null
 ),
 
