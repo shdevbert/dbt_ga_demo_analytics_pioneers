@@ -10,3 +10,4 @@ exposures:
       - ref('onsite_ga3_reco_performance')   
     owner:
       name: Helena Steurer
+      email: h.s@example.com

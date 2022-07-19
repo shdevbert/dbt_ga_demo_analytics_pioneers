@@ -13,5 +13,5 @@ sources:
     schema: analytics_317045356
     database: bergzeit
     tables:
-      - name: ga4_sessions_all
+      - name: ga4_events_all
         identifier: events_*
