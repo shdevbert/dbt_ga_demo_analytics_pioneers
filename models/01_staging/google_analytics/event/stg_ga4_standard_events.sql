@@ -31,9 +31,7 @@ with ga4_event_params_unnested as (
         unnest(event_params) AS event_params
         
     where
-    event_name not like('%item%')
-    and event_name not like('%promotion%')
-    and event_name not like('%cart%')
+    event_name not like('%cart%')
     and event_name not like('%checkout%')
     and event_name not like('%payment%')
     and event_name not like('purchase')
