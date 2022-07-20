@@ -50,7 +50,7 @@ with ga4_event_params_unnested as (
 
 ), 
 
-
+/* pivot the single event_value_all_string column into a separate column for each event parameter */
 ga4_event_params_pivoted as (
 
     select * 

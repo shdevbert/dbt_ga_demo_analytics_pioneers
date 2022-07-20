@@ -44,7 +44,7 @@ with ga4_event_params_unnested as (
         _table_suffix between FORMAT_DATE('%Y%m%d', _dbt_max_partition) and format_date('%Y%m%d',DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY))
         {% else %}
         and 
-        PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(2) }}
+        PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(30) }}
     {% endif %}
 
 ), 

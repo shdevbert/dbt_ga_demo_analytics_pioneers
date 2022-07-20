@@ -1,0 +1,15 @@
+version: 2
+
+models:
+
+  - name: stg_ga4_custom_events
+    description: The granularity of this model is the events level. It extracts all custom events and pivots their event parameters.
+    columns:
+      - name: param_page_location
+        description: pivoted parameter value for page location
+
+  - name: stg_ga4_order_events
+    description: The granularity of this model is the events level. It extracts all events related to the order process and pivots their event parameters.
+
+  - name: stg_ga4_standard_events
+    description: The granularity of this model is the events level. It extracts all events not included in the custom and order events models and pivots their event parameters.
