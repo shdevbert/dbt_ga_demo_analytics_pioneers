@@ -13,11 +13,11 @@ with ga4_initial_event_load as (
         {{ source('ga4_bz_overall', 'ga4_events_all') }}
         
     where
-    event_name like('%select_item%')
-    or event_name like('%view_item_list%')
+    event_name in('select_item')
+
     and _table_suffix not like '%intraday%'
     and PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(2) }}
 
 )
 
-select count(*) from ga4_initial_event_load
+select * from ga4_initial_event_load
