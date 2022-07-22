@@ -23,7 +23,7 @@ with ga4_event_params_unnested as (
         unnest(event_params) AS event_params
         
     where
-    event_name in('select_item','view_item_list')
+    event_name in('select_item')
 
     and _table_suffix not like '%intraday%'
     and PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(2) }}
