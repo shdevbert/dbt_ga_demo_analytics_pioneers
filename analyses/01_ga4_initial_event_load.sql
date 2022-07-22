@@ -20,4 +20,4 @@ with ga4_initial_event_load as (
 
 )
 
-select count(*) from ga4_initial_event_load
+select * from ga4_initial_event_load

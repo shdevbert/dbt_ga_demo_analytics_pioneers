@@ -47,4 +47,4 @@ ga4_event_params_pivoted as (
 
 )
 
-select count(*) from ga4_event_params_pivoted
+select * from ga4_event_params_pivoted
