@@ -1,11 +1,3 @@
-{{ config(
-    materialized='incremental',
-    incremental_strategy = 'insert_overwrite',
-    on_schema_change='fail',
-    partition_by={ 'field': 'date', 'data_type': 'date', 'granularity': 'day' }
-    ) 
-}} 
-
 
 with ga4_event_params_unnested as (
 
@@ -39,14 +31,7 @@ with ga4_event_params_unnested as (
         
     where 
     _table_suffix not like '%intraday%'
-
-    {% if is_incremental() %}
-        and 
-        _table_suffix between FORMAT_DATE('%Y%m%d', _dbt_max_partition) and format_date('%Y%m%d',DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY))
-        {% else %}
-        and 
-        PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(2) }}
-    {% endif %}
+    and PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(2) }}
 
 ), 
 
