@@ -1,1 +1,0 @@
-/* Überlegung -> brauchen wir ein stg model auf page Granularität? E.g. Events per page, ... */
