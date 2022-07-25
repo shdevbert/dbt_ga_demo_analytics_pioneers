@@ -1,7 +1,9 @@
 with daily_sessions as(
     select
-        *
+        date,
+        sum(sum_sessions) as sum_sessions
     from {{ref('int_ga4_sessions')}}
+    group by 1
 ),
 
 list_click_data as(
