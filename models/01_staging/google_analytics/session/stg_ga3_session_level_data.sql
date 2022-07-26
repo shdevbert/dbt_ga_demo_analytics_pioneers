@@ -42,7 +42,7 @@ where
       {% else %}
 
     and 
-      PARSE_DATE('%Y%m%d', _TABLE_SUFFIX) between {{ get_last_n_days_date_range(10) }}
+      PARSE_DATE('%Y%m%d', _TABLE_SUFFIX) between {{ get_last_n_days_date_range(90) }}
 
 {% endif %}
     
