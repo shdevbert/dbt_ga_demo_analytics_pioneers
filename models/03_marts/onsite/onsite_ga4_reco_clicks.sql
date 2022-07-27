@@ -18,6 +18,7 @@ list_click_data as(
 ),
 
 
+
 joined_session_and_reco_data as(
     select *
     from daily_sessions
