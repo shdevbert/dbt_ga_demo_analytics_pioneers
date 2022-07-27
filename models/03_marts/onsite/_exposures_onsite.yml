@@ -1,0 +1,14 @@
+version: 2
+
+exposures:
+
+  - name: Reco Report
+    type: dashboard
+    url: 
+    description: Report that shows session level reco usage data    
+    depends_on:
+      - ref('onsite_ga3_reco_clicks')   
+      - ref('onsite_ga4_reco_clicks')       
+    owner:
+      name: Helena Steurer
+      email: h.s@example.com

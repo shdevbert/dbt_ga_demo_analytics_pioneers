@@ -1,0 +1,11 @@
+version: 2
+
+models:
+
+  - name: stg_ga4_items
+    description: The granularity of this model is the items level with event and device information added.
+
+    columns:
+      - name: param_page_location
+        description: Pivoted parameter value for page location
+        
