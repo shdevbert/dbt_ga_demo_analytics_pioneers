@@ -26,7 +26,7 @@ with ga4_event_params_unnested as (
     event_name like('_custom%')
 
     and _table_suffix not like '%intraday%'
-    and PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(2) }}
+    and PARSE_DATE('%Y%m%d', _table_suffix) between {{ get_last_n_days_date_range(3) }}
 
 ), 
 

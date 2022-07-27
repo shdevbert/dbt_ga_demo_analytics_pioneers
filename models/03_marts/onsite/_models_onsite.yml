@@ -1,0 +1,6 @@
+version: 2
+
+models:
+
+  - name: onsite_ga4_reco_clicks
+    description: This model calculates the daily sessions, reco list views and clicks and sessions with reco clicks.
