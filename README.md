@@ -1,15 +1,12 @@
-Welcome to your new dbt project!
+Willkommen Analytics Pioneers!
 
-### Using the starter project
+![Panda](https://user-images.githubusercontent.com/6991865/181518295-d841d0c8-10e3-467c-aa8c-a576dc0658c0.png)
 
-Try running the following commands:
-- dbt run
-- dbt test
+### Was findet ihr in diesem Repository
+Dieses Repository enthält unser Demo-Beispiel zur Google Analytics 4 Datenmodellierung inklusive aller SQL Models die auf jeder Ebene vorgestellt wurden.
+Für das Demo Beispiel wurde in minimalistischer Form ein Projekt Verlauf (auch Dag genannt) aufgebaut inklusive Descriptions und Exposures.
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Weitere Informationen und alles was inhaltlich im Webinar vorgestellt wurde findet ihr zudem in den Slides.
+
+
