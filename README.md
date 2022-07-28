@@ -10,7 +10,3 @@ Weitere Informationen und alles was inhaltlich im Webinar vorgestellt wurde find
 
 
 Happy GA4 Data Analyzing!
-<<<<<<< HEAD
-
-=======
->>>>>>> 0fde4553905589b21a95f9ecd2c96e931ffb6805
