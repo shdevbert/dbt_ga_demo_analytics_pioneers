@@ -7,3 +7,6 @@ Dieses Repository enthält unser Demo-Beispiel zur Google Analytics 4 Datenmodel
 Für das Demo Beispiel wurde in minimalistischer Form ein Projekt Verlauf aufgebaut inklusive Descriptions und Exposures.
 
 Weitere Informationen und alles was inhaltlich im Webinar vorgestellt wurde findet ihr zudem in den Slides.
+
+
+Happy GA4 Data Analyzing!
