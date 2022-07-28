@@ -1,7 +1,6 @@
 Willkommen Analytics Pioneers!
 
-
-<a href="Panda"><img src="https://user-images.githubusercontent.com/6991865/181518295-d841d0c8-10e3-467c-aa8c-a576dc0658c0.png" align="left" height="250" width="250" ></a>
+<a href="Panda"><img src="https://user-images.githubusercontent.com/6991865/181518295-d841d0c8-10e3-467c-aa8c-a576dc0658c0.png" align="left" height="250" ></a>
 
 ### Was findet ihr in diesem Repository
 Dieses Repository enthält unser Demo-Beispiel zur Google Analytics 4 Datenmodellierung inklusive aller SQL Models die auf jeder Ebene vorgestellt wurden.
