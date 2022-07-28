@@ -1,5 +1,5 @@
 with list_page_events as(
-    select
+    
         date,
         item_list_name,
         page_device,
@@ -11,6 +11,7 @@ with list_page_events as(
     where 
         event_name in('view_item_list','select_item')
     group by 1,2,3,4,5
+    
 )
 
 select * from list_page_events

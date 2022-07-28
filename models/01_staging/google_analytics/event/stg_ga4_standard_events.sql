@@ -52,6 +52,7 @@ ga4_event_params_pivoted as (
 ),
 
 ga4_event_params_surrogate_key as(
+
     select
         *,
         {{ dbt_utils.surrogate_key([
@@ -59,6 +60,7 @@ ga4_event_params_surrogate_key as(
             'param_ga_session_id', 'event_name'
         ])}}  as event_id
     from ga4_event_params_pivoted
+    
 )
 
 select * from ga4_event_params_surrogate_key
