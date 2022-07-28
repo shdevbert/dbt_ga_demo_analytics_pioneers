@@ -44,5 +44,6 @@ models:
         dataset: pioneer_intermediate
 
     03_marts:
-        materialized: view
-        dataset: pioneer_marts
+        onsite:
+            materialized: view
+            dataset: onsite
