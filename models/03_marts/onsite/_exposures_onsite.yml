@@ -4,7 +4,7 @@ exposures:
 
   - name: Reco Report
     type: dashboard
-    url: 
+    url: https://datastudio.google.com/reporting/4fdc606a-7614-4906-8fbf-3dbced092e0b
     description: Report that shows session level reco usage data    
     depends_on:
       - ref('onsite_ga3_reco_clicks')   
