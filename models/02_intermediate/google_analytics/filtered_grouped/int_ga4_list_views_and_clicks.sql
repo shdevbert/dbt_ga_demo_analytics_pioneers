@@ -1,5 +1,5 @@
 with list_page_events as(
-    
+    select
         date,
         item_list_name,
         page_device,
