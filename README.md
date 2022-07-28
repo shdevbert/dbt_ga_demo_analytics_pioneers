@@ -10,4 +10,3 @@ Weitere Informationen und alles was inhaltlich im Webinar vorgestellt wurde find
 
 
 Happy GA4 Data Analyzing!
-
