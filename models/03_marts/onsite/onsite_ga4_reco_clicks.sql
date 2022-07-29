@@ -19,6 +19,7 @@ list_click_data as(
     where item_list_name = 'recommendation'
     group by 1
 
+
 ),
 
 
