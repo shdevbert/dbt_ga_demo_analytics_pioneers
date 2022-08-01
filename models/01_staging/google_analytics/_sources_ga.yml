@@ -3,15 +3,15 @@ version: 2
 sources:
 
   - name: ga3_bz_overall
-    schema: '79472326'
-    database: bergzeit
+    schema: 'ga3-11111111'
+    database: bz
     tables:
       - name: ga3_sessions_all
         identifier: ga_sessions_*
 
   - name: ga4_bz_overall
-    schema: analytics_317045356
-    database: bergzeit
+    schema: 'ga4-222222222'
+    database: bz
     tables:
       - name: ga4_events_all
         identifier: events_*

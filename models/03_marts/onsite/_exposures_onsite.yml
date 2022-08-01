@@ -4,11 +4,10 @@ exposures:
 
   - name: Reco Report
     type: dashboard
-    url: https://datastudio.google.com/reporting/4fdc606a-7614-4906-8fbf-3dbced092e0b
+    url: xxx
     description: Report that shows session level reco usage data    
     depends_on:
-      - ref('onsite_ga3_reco_clicks')   
       - ref('onsite_ga4_reco_clicks')       
     owner:
-      name: Helena Steurer
+      name: H.S.
       email: h.s@example.com
